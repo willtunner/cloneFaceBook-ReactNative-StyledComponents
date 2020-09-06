@@ -58,6 +58,12 @@ color: #FFF;
 text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 `;
 
+const BottomDivider = styled.View`
+width: 100%;
+height: 9px;
+background: #F0F2F5;
+`;
+
 const Story = () => {
     return (
         <>
@@ -154,6 +160,7 @@ const Story = () => {
 
                 </ScrollView>
             </Container>
+            <BottomDivider />
         </>
     )
 }

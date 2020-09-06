@@ -8,6 +8,7 @@ import AppBar from './src/components/Appbar';
 import ToolBar from './src/components/ToolBar';
 import Users  from './src/components/Users';
 import Story  from './src/components/Story';
+import Feed  from './src/components/Feed';
 
 const Container = styled.SafeAreaView`
 flex: 1
@@ -23,6 +24,7 @@ const App = () => {
           <ToolBar />
           <Users />
           <Story />
+          <Feed />
         </ScrollView>
       </Container>
     </>
